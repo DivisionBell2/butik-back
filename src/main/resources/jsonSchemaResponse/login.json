@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "required": [
+    "user_id",
+    "email"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "enum": [
+        "40-173710"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "enum": [
+        "neglavmag@gmail.com"
+      ]
+    }
+  }
+}

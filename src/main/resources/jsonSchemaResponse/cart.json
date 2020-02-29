@@ -1,0 +1,85 @@
+{
+  "type": "object",
+  "required": [
+    "tryon_order",
+    "delivery_info",
+    "items",
+    "session_id",
+    "user_id",
+    "mobile_token",
+    "total_amount",
+    "total_discount_amount",
+    "total_original_amount",
+    "total_items",
+    "total_products",
+    "applied_rules",
+    "updated_at",
+    "created_at",
+    "uniqueProductsCount",
+    "coupon"
+  ],
+  "properties": {
+    "tryon_order": {
+      "type": "boolean"
+    },
+    "delivery_info": {
+      "type": "null"
+    },
+    "items": {
+      "type": "array"
+    },
+    "session_id": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "user_id": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "mobile_token": {
+      "type": "null"
+    },
+    "total_amount": {
+      "type": "integer"
+    },
+    "total_discount_amount": {
+      "type": "integer"
+    },
+    "total_original_amount": {
+      "type": "integer"
+    },
+    "total_items": {
+      "type": "integer"
+    },
+    "total_products": {
+      "type": "integer"
+    },
+    "applied_rules": {
+      "type": "array"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "uniqueProductsCount": {
+      "type": "integer"
+    },
+    "coupon": {
+      "type": "string"
+    }
+  }
+}
